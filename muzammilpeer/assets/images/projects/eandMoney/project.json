@@ -1,0 +1,54 @@
+{
+  "title": "e&Money",
+  "description": "The first UAE Central Bank licensed digital wallet offering secure and efficient transactions.",
+  "image": "assets/images/projects/eandmoney/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Senior iOS Developer",
+      "Timeline: Jan 2018 - Dec 2020",
+      "Associated with: Etisalat"
+    ],
+    "description": "Developed and released the ‘e& money’ app first release, integrating async processes and version control. Integrated Digital KYC process and payment gateway, ensuring security and data privacy. Collaborated between business owners, designers, and development teams to provide quality delivery as per requirements, highlighting technical specifications and product management. Managed offshore resources to ensure in-time and high-quality delivery, demonstrating guidance and technical support.",
+    "features": [
+      "Digital KYC process with liveness and Emirates ID scan",
+      "Registration process",
+      "Wallet management",
+      "Utility bill payments",
+      "Transfers for merchants",
+      "QR Integration for fast payment",
+      "Payments for merchants",
+      "Live chat support",
+      "FaceID integration",
+      "Store locator for branches",
+      "Merchant locations"
+    ],
+    "platform": "iOS 12+",
+    "frameworks": [
+      "Swift",
+      "Alamofire",
+      "KYC card scanner SDK"
+    ],
+    "app_store_link": [
+      "https://apps.apple.com/ae/app/e-money/id1467882287"
+    ],
+    "role_and_responsibility": [
+      "Developed and released the ‘e& money’ app first release, integrating async processes and version control.",
+      "Integrated Digital KYC process and payment gateway, ensuring security and data privacy.",
+      "Collaborated between business owners, designers, and development teams to provide quality delivery as per requirements, highlighting technical specifications and product management.",
+      "Managed offshore resources to ensure in-time and high-quality delivery, demonstrating guidance and technical support.",
+      "Introduced initial scope related to the replacement of physical KYC with liveness and Emirates ID scan.",
+      "Implemented registration process, wallet management, utility bill payments, transfers for merchants, and payments for merchants.",
+      "Integrated live chat support, FaceID integration, store locator for branches, and merchant locations.",
+      "Developed the app using Swift, supporting iOS 12+, and utilized Alamofire and a KYC card scanner SDK."
+    ],
+    "screenshots": [
+      "assets/images/projects/eandmoney/1.png",
+      "assets/images/projects/eandmoney/2.png",
+      "assets/images/projects/eandmoney/3.png",
+      "assets/images/projects/eandmoney/4.png",
+      "assets/images/projects/eandmoney/5.png",
+      "assets/images/projects/eandmoney/6.png",
+      "assets/images/projects/eandmoney/7.png"
+    ]
+  }
+}

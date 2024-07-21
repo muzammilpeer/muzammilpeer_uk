@@ -1,0 +1,54 @@
+{
+  "title": "ValuWare",
+  "description": "ValuWare is a comprehensive solution for survey and valuation management, developed for ValuStrat Consulting FZCO.",
+  "image": "assets/images/projects/valuware/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Aug 2014 - Dec 2014",
+      "Associated with: Systems Ltd"
+    ],
+    "description": "ValuWare is a product of ValuStrat Consulting FZCO, the Middle East’s leading provider of Strategic Advisory, Valuation, and Asset Divestment services. The app facilitates location-based survey assignments, dynamic survey forms, offline access and synchronization, and a comprehensive workflow for survey creation, submission, approval/rejection, and client delivery.",
+    "features": [
+      "Location-based survey assignment",
+      "Valuations list",
+      "Dynamic survey forms with various field types",
+      "Create and submit new surveys",
+      "Offline access with data synchronization",
+      "Change survey location using maps, camera, and video",
+      "Different authorization levels for admin, managers, and surveyors",
+      "Workflow for creating, submitting, approving/rejecting, and sending surveys to clients"
+    ],
+    "platform": "iOS 7/8",
+    "frameworks": [
+      "C#",
+      "WCF",
+      "Asp.net",
+      "MySQL",
+      "AFNetworking",
+      "CoreData",
+      "Core Location",
+      "Camera"
+    ],
+    "app_store_link": [],
+    "role_and_responsibility": [
+      "Developed the iPad application, including database design and web service implementation.",
+      "Implemented offline access and synchronization features for seamless survey management.",
+      "Integrated various functionalities like maps, camera, and video for enhanced user experience.",
+      "Ensured different authorization levels for admin, managers, and surveyors for secure access.",
+      "Conducted extensive testing to ensure the app’s stability and performance across various devices.",
+      "Worked on bug fixing and improving application performance.",
+      "",
+      "This project was a significant step in my career, allowing me to work on a comprehensive survey and valuation management solution for a leading consulting firm."
+    ],
+    "screenshots": [
+      "assets/images/projects/valuware/1.png",
+      "assets/images/projects/valuware/2.png",
+      "assets/images/projects/valuware/3.png",
+      "assets/images/projects/valuware/4.png",
+      "assets/images/projects/valuware/5.png",
+      "assets/images/projects/valuware/6.png",
+      "assets/images/projects/valuware/7.png"
+    ]
+  }
+}

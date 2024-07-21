@@ -1,0 +1,50 @@
+{
+  "title": "OneLoad",
+  "description": "OneLoad is an online service enabling users to buy prepaid vouchers, pay utility bills, and transfer balance effortlessly.",
+  "image": "assets/images/projects/oneload/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Android Application Developer",
+      "Timeline: May 2014 - Present",
+      "Associated with: Systems Ltd"
+    ],
+    "description": "OneLoad is an online service that enables users to easily buy prepaid vouchers for all mobile companies, pay utility bills, and transfer balance to other OneLoad users. By using OneLoad, retailers have a one-stop online solution and no longer need to maintain a large inventory of scratchcards.",
+    "features": [
+      "Buy prepaid vouchers for all mobile companies",
+      "Pay utility bills online",
+      "Transfer balance to other OneLoad users",
+      "Bluetooth integration for printing slips",
+      "User-friendly and secure transactions"
+    ],
+    "platform": "Android 2.3+",
+    "frameworks": [
+      "ksoap2 for web service integration",
+      "Sherlock for action bar implementation",
+      "Bluetooth integration for DPP-250 printer"
+    ],
+    "app_store_link": [
+      "https://play.google.com/store/apps/details?id=com.systems.oneload.android.app"
+    ],
+    "role_and_responsibility": [
+      "Developed the Android application from scratch.",
+      "Integrated ksoap2 for web service communication.",
+      "Implemented Sherlock for action bar functionality.",
+      "Integrated Bluetooth support for DPP-250 printer to print transaction slips.",
+      "Collaborated with the backend team to ensure smooth API integration.",
+      "Conducted thorough testing to ensure compatibility with various Android versions (2.3+).",
+      "Optimized the application for performance and security.",
+      "Worked on bug fixing and improving application reliability.",
+      "",
+      "This project enhanced my skills in Android development, web service integration, and hardware interfacing."
+    ],
+    "screenshots": [
+      "assets/images/projects/oneload/1.png",
+      "assets/images/projects/oneload/2.png",
+      "assets/images/projects/oneload/3.png",
+      "assets/images/projects/oneload/4.png",
+      "assets/images/projects/oneload/5.png",
+      "assets/images/projects/oneload/6.png",
+      "assets/images/projects/oneload/7.png"
+    ]
+  }
+}

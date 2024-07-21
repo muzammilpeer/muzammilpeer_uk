@@ -1,0 +1,54 @@
+{
+  "title": "Voice Notes",
+  "description": "Record and pin your voice notes on your drawings with Voice Notes, featuring voice recording, drawing tools, and social media integration.",
+  "image": "assets/images/projects/voicenotes/logo.jpeg",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Jun 2012 - Aug 2012",
+      "Associated with: Nex.Science"
+    ],
+    "description": "Voice Notes is an application designed to enhance note-taking by allowing users to record and pin their voice notes directly on their drawings. It offers various tools such as voice recording, multiple pins for a single note, brushes, erasers, pencils, and text editing with different colors. Users can change the background to a suitable picture and share their creations on Facebook or via email.",
+    "features": [
+      "Voice recording and pinning on notes",
+      "Multiple voice pins for a single note",
+      "Variety of drawing tools: brushes, erasers, pencils, text editor",
+      "Multiple color options",
+      "Background customization with pictures",
+      "Thumbnails of all drawings at the main view",
+      "Save notes as images or PDFs",
+      "Share on Facebook or via email"
+    ],
+    "platform": "iOS 3.2 to 5 (iPhone, iPod, and iPad)",
+    "frameworks": [
+      "Core Graphics for drawing and sketching",
+      "Camera integration",
+      "Social media integration"
+    ],
+    "app_store_link": [
+      "https://itunes.apple.com/us/app/voice-notes./id535427606?mt=8"
+    ],
+    "role_and_responsibility": [
+      "Designed and developed the application for iPhone, iPod, and iPad.",
+      "Implemented Core Graphics for creating notes and sketches with voice recording functionality.",
+      "Ensured compatibility across different iOS versions (3.2 to 5).",
+      "Integrated camera functionality for adding images to notes.",
+      "Added social media integration for sharing creations on Facebook.",
+      "Developed features to save notes and sketches as images or PDFs.",
+      "Collaborated with designers to create an intuitive and user-friendly interface.",
+      "Conducted extensive testing to ensure the app’s stability and performance.",
+      "Worked on bug fixing and improving application performance.",
+      "",
+      "This project allowed me to explore innovative solutions for integrating voice recordings with note-taking, providing a unique user experience on mobile devices."
+    ],
+    "screenshots": [
+      "assets/images/projects/voicenotes/1.png",
+      "assets/images/projects/voicenotes/2.png",
+      "assets/images/projects/voicenotes/3.png",
+      "assets/images/projects/voicenotes/4.png",
+      "assets/images/projects/voicenotes/5.png",
+      "assets/images/projects/voicenotes/6.png",
+      "assets/images/projects/voicenotes/7.png"
+    ]
+  }
+}

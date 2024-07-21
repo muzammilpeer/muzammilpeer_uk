@@ -1,0 +1,51 @@
+{
+  "title": "Goys Bahrain",
+  "description": "Enhance accessibility to services provided by the General Organization for Youth & Sports (GOYS) in Bahrain.",
+  "image": "assets/images/projects/goys/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Jul 2014 - Dec 2014",
+      "Associated with: Systems Ltd"
+    ],
+    "description": "This application increases the accessibility and better extends the outstanding services provided by the General Organization for Youth & Sports (GOYS). It allows users to communicate directly through phone numbers and email. GOYS is committed to continuously developing its services for the public, aligning with the Supreme Council for Youth and Sports' vision to achieve excellence and quality in performance and creativity.",
+    "features": [
+      "Access the latest News from GOYS",
+      "Access the Emigration and Visa for National Clubs E-service",
+      "Access the Sports Participations for National Clubs E-service",
+      "Access the Maintenance Requesting E-service (to be posted once completed)",
+      "Supports Arabic and English languages",
+      "Allows direct call and email using the Contact Us Page"
+    ],
+    "platform": "iOS 7/8",
+    "frameworks": [
+      "AFNetworking",
+      "Camera",
+      "Social Media Integration"
+    ],
+    "app_store_link": [
+      "https://itunes.apple.com/us/app/general-organization-for-youth/id912134384?mt=8"
+    ],
+    "role_and_responsibility": [
+      "Designed and developed the application to increase accessibility to GOYS services.",
+      "Integrated AFNetworking for efficient data communication.",
+      "Implemented camera and social media integration features for enhanced user interaction.",
+      "Ensured multilingual support (Arabic and English) for a broader user base.",
+      "Worked closely with GOYS to align the app’s features with their strategic goals.",
+      "Conducted extensive testing to ensure stability and performance across iOS 7/8 devices.",
+      "Collaborated with designers to create an intuitive and user-friendly interface.",
+      "Worked on bug fixing and improving application performance.",
+      "",
+      "This project allowed me to contribute to a significant public service initiative, enhancing the accessibility and usability of GOYS services."
+    ],
+    "screenshots": [
+      "assets/images/projects/goys/1.png",
+      "assets/images/projects/goys/2.png",
+      "assets/images/projects/goys/3.png",
+      "assets/images/projects/goys/4.png",
+      "assets/images/projects/goys/5.png",
+      "assets/images/projects/goys/6.png",
+      "assets/images/projects/goys/7.png"
+    ]
+  }
+}

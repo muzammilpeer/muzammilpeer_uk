@@ -1,0 +1,59 @@
+{
+  "title": "e&UAE",
+  "description": "Manage Usage, Shopping (eCommerce), Billings, SIM allocations with the ‘My Etisalat’ app.",
+  "image": "assets/images/projects/eandUae/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Senior iOS Developer",
+      "Timeline: Jan 2016 - Dec 2020",
+      "Associated with: Etisalat"
+    ],
+    "description": "Developed and released a major update of the ‘My Etisalat’ app in 2020 with significant enhancements. Collaborated between business owners and development teams to ensure delivery as per requirements. Worked on design tweaks with the in-house Design team to provide a smooth UI/UX experience. Managed offshore resources to ensure timely and high-quality delivery.",
+    "features": [
+      "Manage Usage",
+      "Shopping (eCommerce)",
+      "Billings",
+      "SIM allocations",
+      "User usage reports for SIM and landline usage",
+      "Multiple user profiles",
+      "Live support chat",
+      "Custom plan management and purchasing for mobile and eLife",
+      "Billing details",
+      "Roaming",
+      "A/B Testing",
+      "Builds to store deployment"
+    ],
+    "platform": "iOS",
+    "frameworks": [
+      "Swift",
+      "Objective-C",
+      "Core Data",
+      "Core Graphics",
+      "Core Animation"
+    ],
+    "app_store_link": [
+      "https://apps.apple.com/ae/app/e-uae/id866147547"
+    ],
+    "role_and_responsibility": [
+      "Developed and released a major update of the ‘My Etisalat’ app in 2020 with significant enhancements.",
+      "Collaborated between business owners and development teams to ensure delivery as per requirements.",
+      "Worked on design tweaks with the in-house Design team to provide a smooth UI/UX experience.",
+      "Managed offshore resources to ensure timely and high-quality delivery.",
+      "Integrated multiple analytics tools to increase sales and Crashlytics to make the app crash-free and high performance.",
+      "Worked on the project for almost 4 years from ground to live support and further module development.",
+      "Integrated eSIM, graphs, widgets, locations, and eCommerce experience for shopping like device purchase or SIM purchase.",
+      "Implemented user usage reports for SIM and landline usage, multiple user profiles, live support chat, custom plan management and purchasing for mobile and eLife, billing details, roaming, A/B Testing.",
+      "Handled builds to store deployment and managed resources for development, leading the team and offshore resources.",
+      "Nominated for 3 awards by the CIO for registration renewal automation for EID scanning, SIM activation, and custom plans."
+    ],
+    "screenshots": [
+      "assets/images/projects/eandUae/1.png",
+      "assets/images/projects/eandUae/2.png",
+      "assets/images/projects/eandUae/3.png",
+      "assets/images/projects/eandUae/4.png",
+      "assets/images/projects/eandUae/5.png",
+      "assets/images/projects/eandUae/6.png",
+      "assets/images/projects/eandUae/7.png"
+    ]
+  }
+}

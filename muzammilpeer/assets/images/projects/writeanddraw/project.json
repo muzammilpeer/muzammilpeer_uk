@@ -1,0 +1,52 @@
+{
+  "title": "Write & Draw (Notes Taker and Sketchbook for iPhone and iPad)",
+  "description": "Create notes and sketches with your fingers using Write & Draw, featuring brushes, erasers, and social media integration.",
+  "image": "assets/images/projects/writeanddraw/logo.jpeg",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Apr 2012 Aug 2012",
+      "Associated with: Nex.Science"
+    ],
+    "description": "Write & Draw is a versatile application that allows users to take notes and create sketches using their fingers. It offers various tools such as brushes, erasers, pencils, and text placement with different colors. Users can view thumbnails of all their drawings in the main view, save their creations as images or PDFs, and share them on Facebook or via email.",
+    "features": [
+      "Note-taking and sketching using fingers",
+      "Variety of tools: brushes, erasers, pencils, text placement",
+      "Multiple color options",
+      "Thumbnails of all drawings at the main view",
+      "Save creations as images or PDFs",
+      "Share on Facebook or via email"
+    ],
+    "platform": "iOS 3.2 to 5 (iPhone, iPod, and iPad)",
+    "frameworks": [
+      "Core Graphics for drawing and sketching",
+      "Camera integration",
+      "Social media integration"
+    ],
+    "app_store_link": [
+      "https://itunes.apple.com/us/app/write-draw-notes-taker-sketchbook/id517834882?mt=8"
+    ],
+    "role_and_responsibility": [
+      "Designed and developed the application for iPhone, iPod, and iPad.",
+      "Implemented Core Graphics for creating notes and sketches with various tools.",
+      "Ensured compatibility across different iOS versions (3.2 to 5).",
+      "Integrated camera functionality for adding images to notes and sketches.",
+      "Added social media integration for sharing creations on Facebook.",
+      "Developed features to save notes and sketches as images or PDFs.",
+      "Collaborated with designers to create an intuitive and user-friendly interface.",
+      "Conducted extensive testing to ensure the app’s stability and performance.",
+      "Worked on bug fixing and improving application performance.",
+      "",
+      "This project allowed me to explore creative solutions for note-taking and sketching on mobile devices, enhancing the user experience with various interactive features."
+    ],
+    "screenshots": [
+      "assets/images/projects/writeanddraw/1.png",
+      "assets/images/projects/writeanddraw/2.png",
+      "assets/images/projects/writeanddraw/3.png",
+      "assets/images/projects/writeanddraw/4.png",
+      "assets/images/projects/writeanddraw/5.png",
+      "assets/images/projects/writeanddraw/6.png",
+      "assets/images/projects/writeanddraw/7.png"
+    ]
+  }
+}

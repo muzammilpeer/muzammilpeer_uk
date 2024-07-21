@@ -1,0 +1,44 @@
+{
+  "title": "Lets Speak Out",
+  "description": "Empower your voice with Lets Speak Out, a platform for free media and expression, available on iPhone.",
+  "image": "assets/images/projects/letsspeakout/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Nov 2011 - Dec 2011",
+      "Associated with: HuLeTS"
+    ],
+    "description": "Have you ever thought if you can find free media? A place where you can have complete freedom to speak out your thoughts? Are you looking for a place where you can find precise information? A chance for each and every one to get their word out and speak up according to their interests. Your news and facts now get the deserved attention. This is a completely free app with the motive of empowering common people. With a beautiful interface, bubbles, and clouds, the app creates a lively world for you to experience. Get WOWS for your good words and DUMPS if they aren't up to the mark. Get your speech bubbles featured in the TOP section of the cloud by getting maximum WOWS.",
+    "platform": "iOS 4 to 5",
+    "frameworks": [
+      "cocos2d",
+      "ASIHTTPRequest",
+      "mySQL",
+      "php (webservices)"
+    ],
+    "app_store_link": [
+      "http://itunes.apple.com/us/app/letsspeakout/id495509246?mt=8"
+    ],
+    "role_and_responsibility": [
+      "Designed and developed the application from concept to deployment.",
+      "Implemented cocos2d for graphics and animations.",
+      "Integrated ASIHTTPRequest for network communication with the backend.",
+      "Developed backend services using mySQL and PHP.",
+      "Ensured compatibility across different versions of iOS (4 to 5).",
+      "Collaborated with designers to create an engaging and interactive user interface.",
+      "Conducted extensive testing to ensure the app’s stability and performance.",
+      "Worked on bug fixing and improving application performance.",
+      "",
+      "This project was a significant step in my career, allowing me to explore and implement innovative solutions for user engagement and content management on mobile platforms."
+    ],
+    "screenshots": [
+      "assets/images/projects/letsspeakout/1.png",
+      "assets/images/projects/letsspeakout/2.png",
+      "assets/images/projects/letsspeakout/3.png",
+      "assets/images/projects/letsspeakout/4.png",
+      "assets/images/projects/letsspeakout/5.png",
+      "assets/images/projects/letsspeakout/6.png",
+      "assets/images/projects/letsspeakout/7.png"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Sticky Notes with Reminders",
+  "description": "Optimize and enhance Sticky Notes with Reminders for iOS, ensuring seamless note-taking with reminder functionality.",
+  "image": "assets/images/projects/stickynoteswithreminder/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Jul 2012 - Aug 2012",
+      "Associated with: Nex.Science"
+    ],
+    "description": "Sticky Notes with Reminders is an application designed to provide users with an easy way to create, manage, and be reminded of their notes. The application focuses on optimization and additional features, ensuring a smooth user experience on iOS devices.",
+    "features": [
+      "Create and manage sticky notes",
+      "Set reminders for individual notes",
+      "Optimized for performance and usability",
+      "Enhanced user interface and experience",
+      "Seamless integration with iOS 3.2 to 5"
+    ],
+    "platform": "iOS 3.2 to 5",
+    "frameworks": [
+      "Core Data for note management",
+      "Local Notifications for reminders"
+    ],
+    "app_store_link": [
+      "https://itunes.apple.com/app/sticky-notes-with-reminders/id545238012?mt=8"
+    ],
+    "role_and_responsibility": [
+      "Provided support for application optimization to ensure smooth performance.",
+      "Implemented additional requirements and fixes based on user feedback.",
+      "Enhanced the user interface for a better note-taking experience.",
+      "Worked on integrating reminder functionality with local notifications.",
+      "Conducted extensive testing to ensure stability across various iOS versions (3.2 to 5).",
+      "Collaborated with the team to brainstorm and implement new features.",
+      "Focused on bug fixing and performance improvements.",
+      "",
+      "This project allowed me to enhance my skills in application optimization and provided valuable experience in implementing reminder functionality for mobile applications."
+    ],
+    "screenshots": [
+      "assets/images/projects/stickynoteswithreminder/1.png",
+      "assets/images/projects/stickynoteswithreminder/2.png",
+      "assets/images/projects/stickynoteswithreminder/3.png",
+      "assets/images/projects/stickynoteswithreminder/4.png",
+      "assets/images/projects/stickynoteswithreminder/5.png",
+      "assets/images/projects/stickynoteswithreminder/6.png",
+      "assets/images/projects/stickynoteswithreminder/7.png"
+    ]
+  }
+}

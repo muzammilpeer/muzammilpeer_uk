@@ -1,0 +1,39 @@
+{
+  "title": "Let's Save Money",
+  "description": "Manage your finances smartly with Let's Save Money, a smart expense manager available on iPhone, iPad, and iPod.",
+  "image": "assets/images/projects/letssavemoney/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Oct 2011 - Nov 2011",
+      "Associated with: HuLeTS"
+    ],
+    "description": "“LetsSaveMoney” is a smart expense manager, which helps you to save more money regularly with just a few taps on your iPhone, iPad, or iPod. It enables you to plan better; showing you a clear picture of your expenses and income. This App allows you to enter your expenses while on the move. The complete App comes with no additional cost; buy it once and manage forever. “LetsSaveMoney” is the answer to all your financial day-to-day operations. Keep your budget in ‘check and balance’ so that you don’t end up in RED. Whenever you make some transaction don’t forget to note it down in the app, which will only take a few seconds to enter your expenses or income.",
+    "platform": "iOS 4 to 5",
+    "frameworks": [
+      "sqlite 3 custom wrapper for local database"
+    ],
+    "app_store_link": [
+      "http://itunes.apple.com/pk/app/letssavemoney/id484572893?mt=8"
+    ],
+    "role_and_responsibility": [
+      "Designed and developed the application from concept to deployment.",
+      "Implemented sqlite 3 custom wrapper for local database management.",
+      "Ensured compatibility across different versions of iOS (4 to 5).",
+      "Collaborated with designers to create a user-friendly and intuitive interface.",
+      "Conducted extensive testing to ensure the app’s stability and performance.",
+      "Worked on bug fixing and improving application performance.",
+      "",
+      "This project was a significant step in my career, allowing me to explore and implement innovative financial management solutions on mobile platforms."
+    ],
+    "screenshots": [
+      "assets/images/projects/letssavemoney/1.png",
+      "assets/images/projects/letssavemoney/2.png",
+      "assets/images/projects/letssavemoney/3.png",
+      "assets/images/projects/letssavemoney/4.png",
+      "assets/images/projects/letssavemoney/5.png",
+      "assets/images/projects/letssavemoney/6.png",
+      "assets/images/projects/letssavemoney/7.png"
+    ]
+  }
+}

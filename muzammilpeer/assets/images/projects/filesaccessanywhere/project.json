@@ -1,0 +1,48 @@
+{
+  "title": "Files Access Anywhere",
+  "description": "A comprehensive app for managing and accessing files across various cloud services and local networks, with PDF annotation support.",
+  "image": "assets/images/projects/filesaccessanywhere/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Jul 2012 - Aug 2012",
+      "Associated with: Nex.Science"
+    ],
+    "description": "Files Access Anywhere is an all-in-one application designed to provide users with seamless access to their files across various cloud services and local networks. The app supports login and management for services like Dropbox, Google Drive, and local SMB networks, and includes features for PDF reading and annotation.",
+    "features": [
+      "Access and manage files from multiple cloud services",
+      "SMB client for accessing local network file shares",
+      "PDF reader with annotation support",
+      "Comprehensive file management capabilities",
+      "Integration with iOS 3.2+"
+    ],
+    "platform": "iOS 3.2+",
+    "frameworks": [
+      "Tango for SMB client v1 and v2 R&D",
+      "PDF support for annotations"
+    ],
+    "app_store_link": [
+      "https://itunes.apple.com/app/files-access-anywhere/id550960086?mt=8"
+    ],
+    "role_and_responsibility": [
+      "Developed and integrated the SMB client module for accessing Windows file shares.",
+      "Implemented the PDF reader with annotation support for enhanced file management.",
+      "Ensured compatibility with multiple cloud services for seamless file access and management.",
+      "Worked on performance optimization and enhancement of the application.",
+      "Collaborated with the team to design and implement user-friendly interfaces.",
+      "Conducted extensive testing to ensure stability and performance across various iOS versions (3.2+).",
+      "Focused on bug fixing and improving application reliability.",
+      "",
+      "This project provided significant experience in integrating multiple file access protocols and enhancing PDF functionalities within a mobile application."
+    ],
+    "screenshots": [
+      "assets/images/projects/filesaccessanywhere/1.png",
+      "assets/images/projects/filesaccessanywhere/2.png",
+      "assets/images/projects/filesaccessanywhere/3.png",
+      "assets/images/projects/filesaccessanywhere/4.png",
+      "assets/images/projects/filesaccessanywhere/5.png",
+      "assets/images/projects/filesaccessanywhere/6.png",
+      "assets/images/projects/filesaccessanywhere/7.png"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "title": "SDTPS (Sharjah Government - Directorate Of Town Planning & Survey)",
+  "description": "Comprehensive application for the Sharjah Government covering diverse city planning and surveying services.",
+  "image": "assets/images/projects/sdtps/logo.png",
+  "details": {
+    "role_and_timeline": [
+      "Role: Mobile Application Developer",
+      "Timeline: Oct 2014 - Jun 2016",
+      "Associated with: Systems Ltd"
+    ],
+    "description": "The SDTPS application for Sharjah Government covers a wide range of services and information related to city planning and surveying. It provides users with convenient access to various modules and services offered by the Directorate Of Town Planning & Survey.",
+    "features": [
+      "Renewal of granted maps",
+      "Plan with us",
+      "Fee payment",
+      "Appointment scheduling",
+      "Feedback (Chairman hotline, Suggestions, Survey, and Poll)",
+      "Track your transactions",
+      "Guest/SingleLogin",
+      "My services",
+      "Land guide and My Land Info",
+      "Calculate fee service",
+      "Request for Info",
+      "Property Numbering",
+      "Pre-approved Designs",
+      "Physical Planning",
+      "Registration (Customer, Consultants, Government Organization)",
+      "Push notifications for all modules",
+      "Happiness Feedback",
+      "Rules and Other sections"
+    ],
+    "platform": "iOS 7+, Android 4+",
+    "frameworks": [
+      "iOS: AFNetworking, Core Data, Core Location, Maps, Camera",
+      "Android: Caldroid, Ion Networking, KSOAP2, Butterknife, AChart, Picasso, ZXing, Social Media Integration",
+      "Backend: ASP.NET, Oracle, KendoUI, KnockoutJS"
+    ],
+    "app_store_link": [
+      "https://itunes.apple.com/pk/app/sdtps/id973033208",
+      "https://play.google.com/store/apps/details?id=com.tawasol.Sharka"
+    ],
+    "role_and_responsibility": [
+      "Designed and developed various modules for the SDTPS application.",
+      "Worked on both iOS and Android versions of the application.",
+      "Implemented AFNetworking and Core Data for efficient data communication and storage on iOS.",
+      "Used Caldroid, Ion Networking, and KSOAP2 for Android development.",
+      "Developed features such as map integration, camera functionality, and social media integration.",
+      "Worked on tablet design and migration of the application.",
+      "Ensured compatibility across different versions of iOS and Android.",
+      "Collaborated with the Sharjah Government to align the app’s features with their strategic goals.",
+      "Conducted extensive testing to ensure stability and performance across various devices.",
+      "Worked closely with designers to create an intuitive and user-friendly interface.",
+      "Worked on bug fixing and improving application performance.",
+      "",
+      "This project was a significant milestone in my career, allowing me to contribute to a major public service initiative and enhance the accessibility of city planning and surveying services in Sharjah."
+    ],
+    "screenshots": [
+      "assets/images/projects/sdtps/1.jpg",
+      "assets/images/projects/sdtps/2.jpg",
+      "assets/images/projects/sdtps/3.jpg",
+      "assets/images/projects/sdtps/4.jpg",
+      "assets/images/projects/sdtps/5.jpg"
+    ]
+  }
+}
