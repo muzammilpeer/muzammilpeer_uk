@@ -62,9 +62,9 @@ class PortfolioPage extends StatelessWidget {
               // _buildAboutMeSection(),
               // _buildIndustriesWorked(),
               _buildPortfolioSection(context),
-              _buildServicesSection(context),
-              _buildProjectSection(context),
               _buildSkillsSection(context),
+              _buildServicesSection(context),
+              // _buildProjectSection(context),
               // _buildTestimonialsSection(),
               // _buildContactSection(),
               // _buildFooter(),
@@ -79,7 +79,6 @@ class PortfolioPage extends StatelessWidget {
   Widget _buildDynamicControl(BuildContext context, List<Widget> children) {
     var width = MediaQuery.of(context).size.width;
     bool isSmallScreen = width < 1210;
-    print("++++++++Width =${width}");
 
     return isSmallScreen
         ? Column(
@@ -328,7 +327,7 @@ class PortfolioPage extends StatelessWidget {
               child: ListView.builder(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
-                // physics: NeverScrollableScrollPhysics(),
+                physics: NeverScrollableScrollPhysics(),
                 itemCount: skillsContent.length,
                 itemBuilder: (context, index) {
                   var mycontent = skillsContent[index];
@@ -629,29 +628,32 @@ class PortfolioPage extends StatelessWidget {
     //   paddingToRemove = 50 * columns;
     // }
 
-    return Column(
-      key: _portfolioKey,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisAlignment: MainAxisAlignment.start,
-      children: [
-        Text(
-          "Professional Projects",
-          style: _textTheme.headlineLarge,
-        ),
-        SizedBox(height: 8.0),
-        Text(
-          "Highlighting my career achievements and projects I\'ve worked on in various companies.",
-          style: _textTheme.bodySmall,
-        ),
-        SizedBox(height: 16.0),
-        Container(
-          // margin:
-          // EdgeInsets.only(left: paddingToRemove, right: paddingToRemove),
-          // padding:
-          //     EdgeInsets.only(left: paddingToRemove, right: paddingToRemove),
-          child: ProjectsSectionWidget(),
-        ),
-      ],
+    return Container(
+      width: MediaQuery.sizeOf(context).width,
+      child: Column(
+        key: _portfolioKey,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          Text(
+            "Professional Projects",
+            style: _textTheme.headlineLarge,
+          ),
+          SizedBox(height: 8.0),
+          Text(
+            "Highlighting my career achievements and projects I\'ve worked on in various companies.",
+            style: _textTheme.bodySmall,
+          ),
+          SizedBox(height: 8.0),
+          Container(
+            // margin:
+            // EdgeInsets.only(left: paddingToRemove, right: paddingToRemove),
+            // padding:
+            //     EdgeInsets.only(left: paddingToRemove, right: paddingToRemove),
+            child: ProjectsSectionWidget(),
+          ),
+        ],
+      ),
     );
   }
 

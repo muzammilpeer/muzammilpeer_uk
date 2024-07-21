@@ -1,7 +1,7 @@
 {
   "title": "e&UAE",
   "description": "Manage Usage, Shopping (eCommerce), Billings, SIM allocations with the ‘My Etisalat’ app.",
-  "image": "assets/images/projects/eandUae/logo.png",
+  "image": "assets/images/projects/eandUAE/logo.png",
   "details": {
     "role_and_timeline": [
       "Role: Senior iOS Developer",
@@ -47,13 +47,13 @@
       "Nominated for 3 awards by the CIO for registration renewal automation for EID scanning, SIM activation, and custom plans."
     ],
     "screenshots": [
-      "assets/images/projects/eandUae/1.png",
-      "assets/images/projects/eandUae/2.png",
-      "assets/images/projects/eandUae/3.png",
-      "assets/images/projects/eandUae/4.png",
-      "assets/images/projects/eandUae/5.png",
-      "assets/images/projects/eandUae/6.png",
-      "assets/images/projects/eandUae/7.png"
+      "assets/images/projects/eandUAE/1.png",
+      "assets/images/projects/eandUAE/2.png",
+      "assets/images/projects/eandUAE/3.png",
+      "assets/images/projects/eandUAE/4.png",
+      "assets/images/projects/eandUAE/5.png",
+      "assets/images/projects/eandUAE/6.png",
+      "assets/images/projects/eandUAE/7.png"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "title": "e&Money",
   "description": "The first UAE Central Bank licensed digital wallet offering secure and efficient transactions.",
-  "image": "assets/images/projects/eandmoney/logo.png",
+  "image": "assets/images/projects/eandMoney/logo.png",
   "details": {
     "role_and_timeline": [
       "Role: Senior iOS Developer",
@@ -42,13 +42,13 @@
       "Developed the app using Swift, supporting iOS 12+, and utilized Alamofire and a KYC card scanner SDK."
     ],
     "screenshots": [
-      "assets/images/projects/eandmoney/1.png",
-      "assets/images/projects/eandmoney/2.png",
-      "assets/images/projects/eandmoney/3.png",
-      "assets/images/projects/eandmoney/4.png",
-      "assets/images/projects/eandmoney/5.png",
-      "assets/images/projects/eandmoney/6.png",
-      "assets/images/projects/eandmoney/7.png"
+      "assets/images/projects/eandMoney/1.png",
+      "assets/images/projects/eandMoney/2.png",
+      "assets/images/projects/eandMoney/3.png",
+      "assets/images/projects/eandMoney/4.png",
+      "assets/images/projects/eandMoney/5.png",
+      "assets/images/projects/eandMoney/6.png",
+      "assets/images/projects/eandMoney/7.png"
     ]
   }
 }

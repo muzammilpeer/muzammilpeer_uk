@@ -40,7 +40,7 @@ class ProjectsSectionWidget extends StatelessWidget {
                 Image.asset(
                   imagePath,
                   fit: BoxFit.fitWidth,
-                  height: 200,
+                  height: 150,
                 ),
                 Container(
                     color: Colors.white,
@@ -114,7 +114,7 @@ class ProjectsSectionWidget extends StatelessWidget {
           return LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
               double maxWidth = constraints.maxWidth;
-              double contentHeight = 170;
+              double contentHeight = 230;
               int columns = (maxWidth > 1200)
                   ? 4
                   : (maxWidth > 800)
