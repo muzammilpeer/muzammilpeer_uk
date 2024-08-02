@@ -195,19 +195,32 @@ class ProjectGalleryPage extends StatelessWidget {
               SizedBox(height: 10),
               if (screenshots.isNotEmpty)
                 Container(
-                  width: MediaQuery.sizeOf(context).width,
-                  // height: 300,
+                  height:300,
+                  // width: MediaQuery.sizeOf(context).width,
                   child: CarouselSlider(
                     options: CarouselOptions(
+                      initialPage: 1,
+                      viewportFraction: 0.5,
+                      disableCenter: true,
+                      enlargeFactor: 0.25,
+                      enableInfiniteScroll: true,
+                      scrollDirection: Axis.horizontal,
                       autoPlay: true,
                       aspectRatio: 2.0,
                       enlargeCenterPage: true,
                     ),
                     items: screenshots!.map((imagePath) {
-                      print(imagePath);
                       return Builder(
                         builder: (BuildContext context) {
-                          return Image.asset(imagePath);
+                          return ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: Image.asset(
+                              imagePath,
+                              // width: 200,
+                              // height: 300,
+                              fit: BoxFit.fitHeight,
+                            ),
+                          );
                         },
                       );
                     }).toList(),

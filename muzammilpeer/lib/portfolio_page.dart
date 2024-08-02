@@ -1,11 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:muzammilpeer/project_gallery_page.dart';
-import 'package:muzammilpeer/widgets/current_time_widget.dart';
 import 'package:muzammilpeer/widgets/process_section_widget.dart';
 import 'package:muzammilpeer/widgets/projects_section_widget.dart';
+import 'package:muzammilpeer/widgets/ring_animation_widget.dart';
 import 'package:muzammilpeer/widgets/services_section_widget.dart';
+import 'package:muzammilpeer/widgets/text_switcher.dart';
+import 'package:muzammilpeer/widgets/web_page_stats_widget.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class PortfolioPage extends StatelessWidget {
   final ScrollController _scrollController = ScrollController();
@@ -68,6 +71,7 @@ class PortfolioPage extends StatelessWidget {
               // _buildTestimonialsSection(),
               // _buildContactSection(),
               // _buildFooter(),
+              WebPageStatsWidget(),
             ],
           ),
         ),
@@ -108,43 +112,172 @@ class PortfolioPage extends StatelessWidget {
       context,
       [
         Container(
-          width: 200,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            boxShadow: [
-              BoxShadow(
-                color: Colors.white54,
-                blurRadius: 50.0,
-                spreadRadius: 10.0,
-              )
+          // width: 300,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('Muzammil Peer', style: _textTheme.labelLarge),
+              SizedBox(
+                width: 20,
+                height: 20,
+              ),
+              Text('Hire a competent',
+                  softWrap: true, style: _textTheme.headlineMedium),
+              TextSwitcher(),
+              SizedBox(
+                width: 20,
+                height: 20,
+              ),
+              Text(
+                  'Elevate your team with the leadership and mentorship of a senior having trailblazing record of technical brilliance and unmatched creativity',
+                  softWrap: true,
+                  style: _textTheme.labelLarge),
             ],
-          ),
-          child: CircleAvatar(
-            backgroundColor: Colors.white,
-            backgroundImage:
-                AssetImage("assets/images/muzammilpeer_portfolio.png"),
-            radius: 100,
           ),
         ),
         SizedBox(
           width: 25,
+          height: 25,
         ),
         Container(
+          // width: 200,
+          decoration: BoxDecoration(
+            shape: BoxShape.rectangle,
+            color: Colors.white54,
+            borderRadius: BorderRadius.circular(8),
+            boxShadow: [
+              BoxShadow(
+                  // color: Colors.white54,
+                  )
+            ],
+          ),
           child: Column(
             children: [
-              Text('Hi, I am Muzammil Peer', style: _textTheme.headlineLarge),
-              SizedBox(height: 10),
-              Text(
-                  'Mobile Application Developer specializing in iOS, Android, and Flutter',
-                  softWrap: true,
-                  style: _textTheme.headlineSmall),
+              Image.asset("assets/images/muzammilpeer_portfolio.png"),
               SizedBox(
-                width: 25,
+                height: 10,
               ),
-              CurrentTimeWidget()
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                      padding: EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        shape: BoxShape.rectangle,
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Text('Online', style: _textTheme.labelMedium)),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Text('Contact now', style: _textTheme.labelMedium),
+                ],
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  InkWell(
+                      onTap: () async {
+                        if (await launchUrl(
+                            Uri.parse("mailto:muzammilpeer987@gmail.com"),
+                            mode: LaunchMode.externalApplication)) {
+                          throw Exception('Could not launch ');
+                        }
+                      },
+                      child: Column(
+                        children: [
+                          RingAnimationWidget(
+                            child: Icon(Icons.email),
+                          ),
+                          SizedBox(
+                            height: 5,
+                          ),
+                          Text('Email', style: _textTheme.labelMedium),
+                        ],
+                      )),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    color: Colors.grey,
+                    height: 32,
+                    width: 1,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  InkWell(
+                      onTap: () async {
+                        if (await launchUrl(Uri.parse("tel:+971561352219"),
+                            mode: LaunchMode.externalApplication)) {
+                          throw Exception('Could not launch ');
+                        }
+                      },
+                      child: Column(
+                        children: [
+                          Icon(Icons.phone),
+                          SizedBox(
+                            height: 5,
+                          ),
+                          Text('Phone', style: _textTheme.labelMedium),
+                        ],
+                      )),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    color: Colors.grey,
+                    height: 32,
+                    width: 1,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  InkWell(
+                      onTap: () async {
+                        if (await launchUrl(
+                            Uri.parse("https://wa.me/971561352219"),
+                            mode: LaunchMode.externalApplication)) {
+                          throw Exception('Could not launch ');
+                        }
+                      },
+                      child: Column(
+                        children: [
+                          Icon(Icons.phone_android),
+                          SizedBox(
+                            height: 5,
+                          ),
+                          Text('Whatsapp', style: _textTheme.labelMedium),
+                        ],
+                      )),
+                ],
+              ),
             ],
           ),
         ),
+        // Container(
+        //   width: 200,
+        //   decoration: BoxDecoration(
+        //     shape: BoxShape.circle,
+        //     boxShadow: [
+        //       BoxShadow(
+        //         color: Colors.white54,
+        //         blurRadius: 50.0,
+        //         spreadRadius: 10.0,
+        //       )
+        //     ],
+        //   ),
+        //   child: Container(
+        //     backgroundColor: Colors.white,
+        //     backgroundImage:
+        //         AssetImage("assets/images/muzammilpeer_portfolio.png"),
+        //     radius: 100,
+        //   ),
+        // ),
       ],
     );
   }
@@ -158,7 +291,7 @@ class PortfolioPage extends StatelessWidget {
         Text('Introduction', style: _textTheme.headlineLarge),
         SizedBox(height: 10),
         Text(
-          "Hello! I’m Muhammad Muzammil Peer, a seasoned mobile application developer with over 13 years of experience in crafting innovative and high-performance apps for iOS, Android, and Flutter. Throughout my career, I have successfully delivered a wide range of projects for enterprise-level clients, startups, and software houses. My expertise spans across native mobile development, cross-platform solutions, and backend services using Python/Django."
+          "Hello! I’m Muzammil Peer, a seasoned mobile application developer with over 13 years of experience in crafting innovative and high-performance apps for iOS, Android, and Flutter. Throughout my career, I have successfully delivered a wide range of projects for enterprise-level clients, startups, and software houses. My expertise spans across native mobile development, cross-platform solutions, and backend services using Python/Django."
           "\n\n"
           "I am passionate about creating seamless user experiences and robust applications that meet the highest standards of quality and performance. Whether you need a cutting-edge mobile app, an efficient backend system, or end-to-end project management, I am here to bring your vision to life."
           "\n\n"
@@ -181,7 +314,7 @@ class PortfolioPage extends StatelessWidget {
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
           SizedBox(height: 10),
           Text(
-              "I am Muhammad Muzammil Peer, a dedicated and detail-oriented mobile application developer with over 13 years of experience in the technology sector. My professional journey began with a passion for coding and has evolved into a robust career focused on developing innovative mobile solutions for diverse clients."
+              "I am Muzammil Peer, a dedicated and detail-oriented mobile application developer with over 13 years of experience in the technology sector. My professional journey began with a passion for coding and has evolved into a robust career focused on developing innovative mobile solutions for diverse clients."
               "\n\n"
               "Throughout my career, I have honed my skills in iOS, Android, and Flutter development, delivering high-quality apps that are both user-friendly and performance-driven. I have worked with renowned companies such as Democrance and Etisalat, where I led key projects, managed teams, and consistently met project deadlines."),
           // Add more content here
@@ -289,18 +422,20 @@ class PortfolioPage extends StatelessWidget {
           SizedBox(height: 10),
           Text(
               "Leveraging these skills, I am equipped to deliver high-quality, scalable, and innovative mobile solutions tailored to meet the unique needs of clients."),
-          _buildSkillsCard(context, _frontendSkills, "Front Development"),
-          _buildSkillsCard(context, _backendSkills, "Backend Development"),
+          _buildSkillsCard(context, _frontendSkills, "Front Development", 160),
+          _buildSkillsCard(context, _backendSkills, "Backend Development", 210),
         ],
       ),
     );
   }
 
-  Widget _buildSkillsCard(context, skillsContent, sectionName) {
+  Widget _buildSkillsCard(
+      context, skillsContent, sectionName, double containerHeight) {
     TextTheme _textTheme = Theme.of(context).textTheme;
 
     return Container(
-      height: 150,
+      height: containerHeight,
+      // width: MediaQuery.sizeOf(context).width - 40,
       padding: EdgeInsets.all(10),
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
@@ -322,16 +457,21 @@ class PortfolioPage extends StatelessWidget {
             color: Colors.grey,
             height: 2,
           ),
-          Flexible(
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
             child: Container(
-              child: ListView.builder(
-                shrinkWrap: true,
-                scrollDirection: Axis.horizontal,
-                physics: NeverScrollableScrollPhysics(),
-                itemCount: skillsContent.length,
-                itemBuilder: (context, index) {
-                  var mycontent = skillsContent[index];
-                  return Padding(
+              // width: MediaQuery.sizeOf(context).width+50,
+
+              child: Row(
+                children: skillsContent.map<Widget>((mycontent) {
+                  // ListView.builder(
+                  //   shrinkWrap: true,
+                  //   scrollDirection: Axis.horizontal,
+                  //   physics: NeverScrollableScrollPhysics(),
+                  //   itemCount: skillsContent.length,
+                  //   itemBuilder: (context, index) {
+                  //     var mycontent = skillsContent[index];
+                  return Container(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
                       children: [
@@ -340,12 +480,15 @@ class PortfolioPage extends StatelessWidget {
                           width: 50,
                           height: 50,
                         ),
+                        SizedBox(
+                          height: 10,
+                        ),
                         Text(mycontent["title"],
                             style: _textTheme.labelLarge?.copyWith())
                       ],
                     ),
                   );
-                },
+                }).toList(),
               ),
             ),
           ),
